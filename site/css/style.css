@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(../fonts/Estedad-FD[KSHD\wght].ttf);
+}
+body {
+  background-color: #f8f9fa;
+  font-family: font1;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: center;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+.navbar-brand img {
+  height: 40px; /* تنظیم اندازه لوگو */
+}
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.btn-login {
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: #212529;
+  color: #fff;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.box {
+  max-width: 100%;
+  max-height: auto;
+  margin-top: -200px;
+}
+
+.text-color {
+  color: #fdb713;
+}
+
+.text-bg-color {
+  background-color: #fdb713;
+}
+
+.view-link {
+  text-decoration: none;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-type {
+  margin-right: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.btn-type.active {
+  background-color: #007bff;
+  color: white;
+}
+.input-group-text {
+  background-color: #f8f9fa;
+  border: none;
+  font-size: 0.9rem;
+}
+.form-control,
+.btn,
+.input-group-text {
+  border-radius: 8px;
+}
+.hidden {
+  display: none;
+}
+
+.car-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.car-card img {
+  width: 100%;
+  height: auto;
+}
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+.price-row {
+  font-size: 0.9rem;
+  color: #6c757d;
+  display: flex;
+  justify-content: space-between;
+}
+.price-value {
+  color: #0d6efd;
+}
+.reserve-button {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background-color: #007bff;
+  color: white;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.step-box {
+  width: 23%;
+  text-align: center;
+  padding: 10px;
+  margin-top: -20%;
+}
+.step-box h2 {
+  font-size: 2rem;
+  color: #6076e0;
+  margin-bottom: 10px;
+}
+.step-box p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.highlight {
+  color: #ff8c00;
+  font-weight: bold;
+}
+.car-image-container {
+  position: relative;
+  width: 20%;
+}
+.car-image {
+  width: 100%;
+}
+.red-line {
+  background-color: red;
+  width: 6px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.container-custom {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-header img {
+    max-width: 270px;
+    max-height: 270px;
+    max-width: 100%;
+    border-radius: 12px;
+ 
+}
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    border: none;
+    font-weight: bold;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button::after {
+    transform: rotate(90deg);
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(270deg);
+}
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.accordion-item:last-child {
+    border-bottom: none;
+}
+.accordion-body {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.color-rate{
+  color: #fdb713;
+
+}
+
+.color-box{
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.color-box2{
+  width: 20%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+.img-member {
+  max-width: 100px !important;
+  max-height: 100px !important;
+}
+
+.color-rate-none{
+  color: #c3c5c7;
+}
+
+.color-box3{
+  background-color: #fdb713;
+}
+
+.title-article{
+  display: block;
+
+}
+
+.shadow{
+  border-radius: 20px;
+}
+
+
+.font-article-icon{
+  font-size: small;
+}
+
+.footer {
+  background-color: #111;
+  padding: 30px 0;
+}
+.footer .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .newsletter input {
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  width: calc(100% - 90px);
+  margin-left: 10px;
+}
+.footer .newsletter button {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.footer .newsletter button:hover {
+  background-color: #e6b800;
+}
+.footer .footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #aaa;
+}
+.footer hr {
+  border-color: #333;
+  margin: 20px 0;
+}
+.footer .contact-info p, .footer .links ul {
+  margin: 0;
+  padding: 5px 0;
+}
+.footer .links ul {
+  list-style: none;
+  padding: 0;
+}

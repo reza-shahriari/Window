@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cars</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start nav -->
+
+    <nav class="navbar navbar-expand-lg text-bg-dark">
+      <div class="container">
+        <!-- لوگو -->
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo.png" alt="logo" />
+        </a>
+
+        <!-- منو -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">رزرو خودرو</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">خدمات ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">بلاگ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">تماس با ما</a>
+            </li>
+            <i class="bi bi-search search-icon mx-3 text-white"></i>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <button class="btn btn-login btn-outline-light btn-light border-0">
+            ورود / ثبت‌نام
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end nav  -->
+    <!-- start main   -->
+
+    <div class="container-fluid text-bg-dark">
+      <section class="row g-4">
+        <div class="row g-4">
+          <article class="col-12 col-md-6">
+            <h1 class="text-color mt-5 mx-auto">
+              اُتـــو رِنت؛ سریع، آسان و به صرفه
+            </h1>
+            <p class="ms-5">
+              سرویس دهنده رزرو خودرو در ایران در کمترین زمان ممکن!
+            </p>
+            <div class="row mx-4">
+              <div class="col-6 col-lg-4">
+                <button class="btn text-bg-color">
+                  <i class="bi bi-car-front"></i>
+                  رزرو آسان خودرو
+                </button>
+              </div>
+              <div class="col-6 col-lg-4">
+                <button class="btn btn-outline-light">
+                  <i class="bi bi-chevron-compact-left"></i>
+                  تماس با ما
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6">
+            <img src="images/image 43.png" alt="" class="img-fluid" />
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <div class="form-container my-3">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div id="typeButtons">
+          <button class="btn btn-type active" onclick="showForm('withDriver')">
+            اجاره خودرو با راننده
+          </button>
+          <button class="btn btn-type" onclick="showForm('withoutDriver')">
+            اجاره خودرو بی راننده
+          </button>
+          <button class="btn btn-type" onclick="showForm('weddingCar')">
+            ماشین عروس
+          </button>
+        </div>
+        <a href="#" class="text-primary view-link"
+          >اطلاعات بیشتر در مورد رزرو خودرو</a
+        >
+      </div>
+
+      <!-- فرم اجاره خودرو با راننده -->
+      <div id="withDriver" class="form-content">
+        <div class="mb-3">
+          <label class="form-label">محل تحویل خودرو</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="مثلاً تهران - فرودگاه امام خمینی"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label">تاریخ تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="bi bi-calendar"></i
+              ></span>
+              <input type="date" class="form-control" />
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">ساعت تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-clock"></i></span>
+              <input type="time" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label">تاریخ بازگشت</label>
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="bi bi-calendar"></i
+              ></span>
+              <input type="date" class="form-control" />
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">ساعت بازگشت</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-clock"></i></span>
+              <input type="time" class="form-control" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- فرم اجاره خودرو بی راننده -->
+      <div id="withoutDriver" class="form-content hidden">
+        <div class="mb-3">
+          <label class="form-label">محل تحویل خودرو</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="مثلاً مشهد - ایستگاه راه‌آهن"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label">تاریخ تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="bi bi-calendar"></i
+              ></span>
+              <input type="date" class="form-control" />
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">ساعت تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-clock"></i></span>
+              <input type="time" class="form-control" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- فرم ماشین عروس -->
+      <div id="weddingCar" class="form-content hidden">
+        <div class="mb-3">
+          <label class="form-label">محل تحویل خودرو</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="مثلاً تهران - دفتر گل آرایی"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="form-label">تاریخ تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"
+                ><i class="bi bi-calendar"></i
+              ></span>
+              <input type="date" class="form-control" />
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">ساعت تحویل</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-clock"></i></span>
+              <input type="time" class="form-control" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-warning w-100 mt-3" type="submit">
+        <i class="bi bi-search"></i> جستجو
+      </button>
+    </div>
+
+    <div class="container-fluid">
+      <section class="row g-4">
+        <img src="images/Brand.png" alt="" class="img-fluid" />
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="row">
+        <img
+          src="images/Frame 427320941.png"
+          alt="auto-rent"
+          class="img-fluid my-3"
+        />
+      </section>
+    </div>
+
+    <div class="container">
+      <section
+        class="d-flex row g-4 justify-content-around text-center move-up"
+      >
+        <article class="col-4">
+          <div class="box mb-3 mt-3">
+            <img
+              src="images/Frame 427321027.png"
+              alt="box-white"
+              class="img-fluid"
+            />
+          </div>
+        </article>
+
+        <article class="col-4">
+          <div class="box mb-3 mt-3">
+            <img
+              src="images/Frame 427320944.png"
+              alt="box-white"
+              class="img-fluid"
+            />
+          </div>
+        </article>
+
+        <article class="col-4">
+          <div class="box mb-3 mt-3">
+            <img
+              src="images/Frame 427321026.png"
+              alt="box-white"
+              class="img-fluid"
+            />
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="row my-3 g-3 justify-content-lg-evenly">
+        <article class="col-6 col-lg-2">
+          <img src="images/cope.png" alt="pic-cars" />
+        </article>
+
+        <article class="col-6 col-lg-2">
+          <img src="images/sedan.png" alt="pic-cars" />
+        </article>
+        <article class="col-6 col-lg-2">
+          <img src="images/crock.png" alt="pic-cars" />
+        </article>
+        <article class="col-6 col-lg-2">
+          <img src="images/shasi.png" alt="pic-cars" />
+        </article>
+        <article class="col-12 col-lg-2">
+          <img src="images/sport.png" alt="pic-cars" />
+        </article>
+      </section>
+    </div>
+
+    <h3 class="text-center text-secondary mt-5 fs-4">مشاهده موجودی خودرو ها</h3>
+    <h3 class="text-center fw-bold fs-1 my-4 mb-5">
+      رزرو خودرو در <span class="text-color">اتورنت</span>
+    </h3>
+
+    <div class="container">1
+      <section class="row">
+        <article class="d-flex col-10 justify-content-center">
+          <button class="btn btn-primary">پرطرفدار</button>
+          <btuton class="btn btn-outline-primary mx-2">لوکس</btuton>
+          <btuton class="btn btn-outline-primary">اقتصادی</btuton>
+        </article>
+        <article class="col-2">
+          <a href="#" class="view-link">مشاهده همه</a>
+          <i class="bi bi-chevron-left text-primary"></i>
+        </article>
+      </section>
+    </div>
+
+    <div class="container mt-4">
+      <div class="row" id="car-list">
+        <!-- کارت‌های خودروها اینجا اضافه می‌شوند -->
+      </div>
+    </div>
+
+    <h3 class="text-center text-secondary">چگونه در وبسایت</h3>
+    <h3 class="text-center fw-bold my-4">
+      <span class="text-color">اتورنت،</span>خودرو رزرو کنیم؟
+    </h3>
+
+    <div class="steps-container">
+      <!-- Step 1 -->
+      <div class="step-box">
+        <h2>۱</h2>
+        <h3><i class="bi bi-car-front text-warning"></i></h3>
+        <p><span class="highlight">خودروی</span> خود را انتخاب کنید.</p>
+        <p>خودروی مورد نظر خود را با درخواست خود انتخاب کنید.</p>
+      </div>
+
+      <!-- Car Image and Red Line -->
+      <div class="car-image-container position-relative">
+        <div class="red-line"></div>
+        <img
+          src="images/Frame 1430103013.png"
+          alt="car"
+          class="car-image img-fluid"
+        />
+        <!-- تصویر ماشین -->
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step-box">
+        <h2>۲</h2>
+        <h3><i class="bi bi-calendar-check text-warning"></i></h3>
+        <p><span class="highlight">تاریخ تحویل</span> را تعیین کنید.</p>
+        <p>تاریخ موردنظر خود را از تقویم انتخاب و رزرو کنید.</p>
+      </div>
+    </div>
+
+    <div class="steps-container">
+      <!-- Step 3 -->
+      <div class="step-box">
+        <h2>۳</h2>
+        <h3><i class="bi bi-wallet2 text-warning"></i></h3>
+        <p><span class="highlight">هزینه اجاره</span> را پرداخت کنید.</p>
+        <p>
+          می‌توانید از طریق کیف پول آنلاین یا کارت‌های عضو شتاب هزینه اجاره را
+          پرداخت کنید.
+        </p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-box">
+        <h2>۴</h2>
+        <h3><i class="bi bi-key-fill text-warning"></i></h3>
+        <p><span class="highlight">خودرو</span> را دریافت کنید.</p>
+        <p>در زمان و مکان تعیین شده، خودروی خود را دریافت کنید.</p>
+      </div>
+    </div>
+
+    <h3 class="text-center text-secondary fs-4">
+      پرتکرار ترین سوالاتی که پرسیدید
+    </h3>
+    <h3 class="text-center fs-2">
+      سوالات <span class="text-color">متداول</span>
+    </h3>
+
+    <div class="container my-5">
+      <div class="row g-0 align-items-center">
+        <!-- بخش تصویر -->
+        <div class="col-md-4 faq-header text-center">
+          <img src="images/Frame 1430102958.png" alt="تصویر مرد فکر کننده" />
+        </div>
+        <!-- بخش سوالات متداول -->
+        <div class="col-md-8">
+          <div class="container-custom">
+            <div class="accordion" id="faqAccordion">
+              <!-- سوال 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    در صورت بروز نقص فنی برای خودرو چه اتفاقی می‌افتد؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    در صورت بروز نقص فنی، تیم پشتیبانی ما به شما کمک خواهد کرد
+                    تا مشکل به سرعت برطرف شود.
+                  </div>
+                </div>
+              </div>
+
+              <!-- سوال 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    هزینه بنزین و کارواش در خودروهای اجاره‌ای به عهده کیست؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    در زمان اجاره، خودرو با باک پر و کارواش شده تحویل داده
+                    می‌شود. در زمان استرداد، اگر خودرو نیاز به کارواش یا سوخت
+                    داشته باشد، هزینه آن به عهده مشتری است.
+                  </div>
+                </div>
+              </div>
+
+              <!-- سوال 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    آیا ماشین‌های اتورنت دارای بیمه هستند؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    بله، تمامی خودروهای اجاره‌ای دارای بیمه بدنه و شخص ثالث
+                    هستند.
+                  </div>
+                </div>
+              </div>
+
+              <!-- سوال 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    محدودیت کیلومتر در اجاره خودرو چقدر می‌باشد؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    محدودیت کیلومتر بسته به نوع خودرو و شرایط اجاره متفاوت است.
+                    معمولاً محدودیت کیلومتر روزانه بین ۲۰۰ تا ۳۰۰ کیلومتر است.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-center text-secondary">
+      آنچه مشتریان در مورد ما گفته اند.
+    </h3>
+    <h3 class="text-center fw-bold my-4">
+      نظرات<span class="text-color"> مشتریان </span>
+    </h3>
+
+    <div class="container">
+      <section class="row color-box shadow">
+        <img
+          src="images/img (3).png"
+          alt=""
+          class="img-fluid img-member mx-auto mt-5"
+        />
+        <span class="my-3">اولدوز بهار</span>
+        <div class="d-flexx mb-2">
+          <span><i class="bi bi-star-fill color-rate-none"></i></span>
+          <span><i class="bi bi-star-fill color-rate"></i></span>
+          <span><i class="bi bi-star-fill color-rate"></i></span>
+          <span><i class="bi bi-star-fill color-rate"></i></span>
+          <span><i class="bi bi-star-fill color-rate"></i></span>
+        </div>
+        <p class="w-75 mx-auto fs-5 mb-5">
+          اولین بار بود که برای مسافرت ماشین اجاره می‌کردم و به دنبال یک شرکت با
+          سابقه و مطمئن می‌گشتم! بدون هیچ شکی میگم، اتو رنت تو کار خودش
+          بهترینه! پشتیبانی عالی، هزینه بسیار مناسب، آسان بودن روند اجاره و
+          رزرو؛ هرچی بگم کم گفتم! حتماً دفعه بعد هم برای اجاره ماشین به سراغشون
+          میام.
+        </p>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="row my-3 justify-content-evenly text-center">
+        <article class="col-6 col-md-3 color-box2 shadow color-box3">
+          <img src="images/img (3).png" alt="" /><br />
+          <span>اولدوز بهار</span>
+        </article>
+        <article class="col-6 col-md-3 color-box2 shadow">
+          <img src="images/javad.png" alt="" /><br />
+          <span>محمد جواد امینی</span>
+        </article>
+        <article class="col-6 col-md-3 color-box2 shadow">
+          <img src="images/img (1).png" alt="" /><br />
+          <span>فرزانه فصیحی</span>
+        </article>
+        <article class="col-6 col-md-3 color-box2 shadow">
+          <img src="images/img (2).png" alt="" /><br />
+          <span class="mt-3">فاطمه حیدری</span>
+        </article>
+      </section>
+    </div>
+
+    <h3 class="text-center text-secondary mt-5 fs-4">مقالات ما</h3>
+    <h3 class="text-center fw-bold fs-1 my-4 mb-5">
+      مجله <span class="text-color">خودرو</span>
+    </h3>
+
+    <div class="container">
+      <section class="row">
+        <article class="col-6 col-md-4 shadow">
+          <img src="images/pic.png" alt="" class="img-fluid my-2 mx-auto" />
+          <span class="title-article fw-bold fs-5 my-2"
+            >روش های مختلف برای اجاره خودرو</span
+          >
+          <span class="text-secondary"
+            > امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به
+            وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی
+            شده است.
+          </span>
+
+          <div class="articles-icons my-2">
+            <i class="bi bi-clock text-secondary font-article-icon"></i>
+            <span class="font-article-icon me-2">3 دقیقه</span>
+            <i class="bi bi-eye text-secondary font-article-icon"></i>
+            <span class="font-article-icon">1,213</span>
+          </div>
+        </article>
+
+        <article class="col-6 col-md-4 shadow">
+          <img src="images/pic (1).png" alt="" class="img-fluid my-2 mx-auto" />
+          <span class="title-article fw-bold fs-5 my-2"
+            >روش های مختلف برای اجاره خودرو</span
+          >
+          <span class="text-secondary"
+            > امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به
+            وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی
+            شده است.
+          </span>
+
+          <div class="articles-icons my-2">
+            <i class="bi bi-clock text-secondary font-article-icon"></i>
+            <span class="font-article-icon me-2">3 دقیقه</span>
+            <i class="bi bi-eye text-secondary font-article-icon"></i>
+            <span class="font-article-icon">1,213</span>
+          </div>
+        </article>
+
+        <article class="col-6 mx-auto col-md-4 shadow">
+          <img src="images/pic (2).png" alt="" class="img-fluid my-2 mx-auto" />
+          <span class="title-article fw-bold fs-5 my-2"
+            >روش های مختلف برای اجاره خودرو</span
+          >
+          <span class="text-secondary"
+            > امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به
+            وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی
+            شده است.
+          </span>
+
+          <div class="articles-icons my-2">
+            <i class="bi bi-clock text-secondary font-article-icon"></i>
+            <span class="font-article-icon me-2">3 دقیقه</span>
+            <i class="bi bi-eye text-secondary font-article-icon"></i>
+            <span class="font-article-icon">1,213</span>
+          </div>
+        </article>
+      </section>
+    </div>
+    <!-- end main   -->
+
+    <!-- start footer   -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row text-center text-md-start align-items-start">
+          <!-- لوگو و توضیحات -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="logo">اتورنت</div>
+            <p>
+              اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین
+              ناوگان خودرویی، از انواع خودروهای صفر کیلومتر اقتصادی تا تجاری در
+              سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+            </p>
+          </div>
+          <!-- دسترسی آسان -->
+          <div class="col-12 col-md-4 mb-4 links">
+            <h5 class="mb-3">دسترسی آسان</h5>
+            <ul>
+              <li><a href="#">سوالات متداول</a></li>
+              <li><a href="#">تماس با ما</a></li>
+              <li><a href="#">درباره ما</a></li>
+            </ul>
+          </div>
+          <!-- خبرنامه -->
+          <div class="col-12 col-md-4">
+            <h5 class="mb-3">خبرنامه</h5>
+            <form class="newsletter d-flex flex-wrap">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="ایمیل خود را وارد کنید"
+              />
+              <button type="submit" class="btn mt-2 mt-md-0">ارسال</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <!-- اطلاعات تماس -->
+        <div class="row">
+          <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+            <p><i class="bi bi-telephone"></i> تلفن: 0912-3123456</p>
+            <p>
+              <i class="bi bi-envelope"></i> ایمیل:
+              <a href="mailto:autorent@info.com">autorent@info.com</a>
+            </p>
+            <p><i class="bi bi-geo-alt"></i> آدرس: تهران - خ شادمان</p>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-end">
+            <p>تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد &copy;</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer    -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
