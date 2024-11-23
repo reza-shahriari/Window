@@ -1,6 +1,6 @@
 # •	Non-Functional requirement (NFR)
 1.	Encrypting personal and confidential information that other users should not have access to them + checking the security level of the password during user registration **(security)**
-2.	Creating restrictions for borrowing multiple cars at the same time + categorizing and filtering cars based on customer needs **(usability)**
+2.	Creating restrictions for borrowing multiple cars at the same time **(usability)**
 3.	Checking the amount of information and photos uploaded when registering, selling or renting a car so that their volume does not exceed a certain limit **(Scalability)**
 4.	Showing some of the satisfaction of former customers to gain trust + providing the terms, rules and regulations of the site to the user during registration **(reliability)**
 5.	Support and contact page + site failure report from users **(Supportability)**
@@ -14,3 +14,4 @@
 6.	The ability to view the list of cars separately (for purchase and for rent, rented cars)
 7.	Showing the remaining time of each rented car (suitable for planning for users who want to rent a car)
 8.	Consider a place to store information about people and cars, people's records and uploaded photos
+9.	categorizing, filtering and displaying cars based on customer needs 
