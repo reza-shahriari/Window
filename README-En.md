@@ -1,5 +1,6 @@
-### [فارسی](README.md) English
-# Buy and sell automobiles atumatically 
+# Window: sell and buy atumobiles atumatically
+
+### [فارسی](README.md) | English <br>
 
 ## diagrams
 ### 1. User story diagram
