@@ -1,195 +1,232 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9" pages="3">
-  <diagram name="Page-1" id="HeQCY1YnqU20DhkaM1wL">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.9" pages="3">
+  <diagram name="Page-1" id="Me1oGmO71xqQFZZEzUqT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-1" value="خریدار (اجاره کننده)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#dae8fc;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-1" value="خریدار" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="450" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-2" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="160" y="40" width="370" height="640" as="geometry" />
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="370" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-3" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-4" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-4" value="" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-1" target="zJfFG7xfrXBfZIgJ6-fP-3" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-1" target="IY7rvp7xD9QYvmLXro7n-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="360" as="sourcePoint" />
             <mxPoint x="130" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-5" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font data-font-src=&quot;https://www.fontyab.com/download?id=696&quot;&gt;&amp;nbsp;مشاهده لیست خودرو ها&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;shadow=1;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-7" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;مشاهده لیست خودرو ها&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="165" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-6" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-8" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-7" value="ساخت حساب کاربری" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-9" value="ساخت حساب کاربری" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="215" y="255" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-8" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-10" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="350" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-9" value="قرار دادن ماشین برای فروش یا اجاره" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-11" value="قرار دادن ماشین برای فروش یا اجاره" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="375" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-10" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-12" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-11" value="مشاهده زمان باقی مانده از اجاره" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-13" value="مشاهده زمان باقی مانده از اجاره" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="165" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-12" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-14" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-13" value="ورود به پنل حساب کاربری" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-15" value="ورود به پنل حساب کاربری" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="215" y="632.5" width="110" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-14" value="بازدید کننده" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#dae8fc;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-17" value="بازدید کننده" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-15" value="" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" target="zJfFG7xfrXBfZIgJ6-fP-3" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="IY7rvp7xD9QYvmLXro7n-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="240" as="sourcePoint" />
             <mxPoint x="130" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-16" value="" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-14" target="zJfFG7xfrXBfZIgJ6-fP-6" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-17" target="IY7rvp7xD9QYvmLXro7n-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="260" as="sourcePoint" />
             <mxPoint x="160" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-17" value="" style="endArrow=none;html=1;rounded=1;entryX=0.047;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-1" target="zJfFG7xfrXBfZIgJ6-fP-22" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.047;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-1" target="IY7rvp7xD9QYvmLXro7n-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="450" as="sourcePoint" />
             <mxPoint x="120" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-18" value="" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" target="zJfFG7xfrXBfZIgJ6-fP-12" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="IY7rvp7xD9QYvmLXro7n-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="470" as="sourcePoint" />
             <mxPoint x="140" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-10" target="zJfFG7xfrXBfZIgJ6-fP-3" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-12" target="IY7rvp7xD9QYvmLXro7n-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="390" as="sourcePoint" />
             <mxPoint x="500" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-20" value="اگر ماشین اجاره شده&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="330" y="140" width="90" height="30" as="geometry" />
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-27" value="اگر ماشین اجاره شده باشد" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-21" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;labelBackgroundColor=none;fontFamily=Helvetica;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="350" y="180" width="60" height="30" as="geometry" />
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-29" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="350" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-22" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-34" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-23" value="انتخاب ماشین برای اجاره یا خرید" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-35" value="انتخاب ماشین برای اجاره یا خرید" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="195" y="465" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-24" value="" style="endArrow=none;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-26" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-36" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="410" as="sourcePoint" />
             <mxPoint x="620" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-25" value="" style="endArrow=none;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-37" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="640" as="sourcePoint" />
             <mxPoint x="590" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-26" value="فروشنده (اجاره دهنده)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#dae8fc;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-16" value="فروشنده (اجاره دهنده)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="330" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-27" value="" style="endArrow=none;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-8" target="zJfFG7xfrXBfZIgJ6-fP-26" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-38" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-10" target="IY7rvp7xD9QYvmLXro7n-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-28" value="" style="endArrow=none;html=1;rounded=1;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-3" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-39" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="410" as="sourcePoint" />
             <mxPoint x="590" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;exitX=1.022;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.024;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-8" target="zJfFG7xfrXBfZIgJ6-fP-30" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1.022;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.024;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-10" target="IY7rvp7xD9QYvmLXro7n-41" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="370" as="sourcePoint" />
             <mxPoint x="500" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-30" value="بررسی خوردگی های ماشین" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-41" value="بررسی خوردگی های ماشین" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-31" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.024;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="zJfFG7xfrXBfZIgJ6-fP-22" target="zJfFG7xfrXBfZIgJ6-fP-30" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.024;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IY7rvp7xD9QYvmLXro7n-34" target="IY7rvp7xD9QYvmLXro7n-41" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="390" as="sourcePoint" />
             <mxPoint x="500" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;rotation=0;labelBackgroundColor=none;fontFamily=Helvetica;fillColor=none;strokeColor=none;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="295" y="420" width="60" height="30" as="geometry" />
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-44" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-33" value="ثبت نظر روی کیفیت ماشین" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=B Koodak;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-46" value="ثبت نظر روی کیفیت ماشین" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="215" y="520" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-34" value="" style="endArrow=none;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" target="zJfFG7xfrXBfZIgJ6-fP-33" edge="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="IY7rvp7xD9QYvmLXro7n-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="470" as="sourcePoint" />
             <mxPoint x="130" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJfFG7xfrXBfZIgJ6-fP-35" value="سیستم اجاره و فروش خودرو" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;fontSize=17;labelBackgroundColor=none;fontFamily=B Koodak;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
+        <mxCell id="IY7rvp7xD9QYvmLXro7n-49" value="سیستم اجاره و فروش خودرو" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="241.25" y="60" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-1" value="اجاره کننده" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="632.5" width="30" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RGj8-whj0QnMuZzRq_uA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="180" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGj8-whj0QnMuZzRq_uA-1" target="IY7rvp7xD9QYvmLXro7n-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.073;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RGj8-whj0QnMuZzRq_uA-1" target="IY7rvp7xD9QYvmLXro7n-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-7" value="تعیین دوره اجاره و قیمت گذاری" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="690" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RGj8-whj0QnMuZzRq_uA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="650" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGj8-whj0QnMuZzRq_uA-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RGj8-whj0QnMuZzRq_uA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-2" id="d_xGGWQ35K8_mDBuara7">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="JauQzKFLT9TeFyIH7e6y" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;B Koodak&quot;&gt;بازدید کننده&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ viewableCars&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ viewCars()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ viewComments()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ createAccount()&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;بازدید کننده&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ viewableCars&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ viewCars()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ viewComments()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createAccount()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="345" y="70" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;B Koodak&quot;&gt;خریدار (فروشنده)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ userId&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;name&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;email&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;verifiedDocuments&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ placeCarForRentOrSale()&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ registerComments()&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ viewRemainingRentalPeriod()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ displayCorrosion()&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="250" width="210" height="180" as="geometry" />
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;خریدار (فروشنده)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ userId&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;name&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;email&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;verifiedDocuments&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ placeCarForRentOrSale()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registerComments()&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ viewRemainingRentalPeriod()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ displayCorrosion()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="250" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;B Koodak&quot;&gt;ماشین&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ carId&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;model&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;year&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ price&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;isForSale&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;isForRent&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;corrosionPoints&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ images&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ setForSale()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;setForRent()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;detectCorrosion()&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="340" width="170" height="240" as="geometry" />
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ماشین&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ carId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;year&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ price&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isForSale&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isForRent&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;corrosionPoints&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ images&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setForSale()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setForRent()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;detectCorrosion()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="170" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;B Koodak&quot;&gt;اکانت&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ accountId&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;username&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;verifyIdentity()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;viewRentedCars()&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;viewLeasedCars()&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="580" width="210" height="160" as="geometry" />
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;اکانت&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ accountId&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;username&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;verifyIdentity()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;viewRentedCars()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;viewLeasedCars()&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="323" y="520" width="205" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;B Koodak&quot;&gt;اجاره&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;carId&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ lessorId&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ renterId&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;startDate&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+ endDate&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;+&amp;nbsp;getRemainingRentalPeriod()&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="645" y="660" width="180" height="170" as="geometry" />
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;اجاره&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;carId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ lessorId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ renterId&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;startDate&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ endDate&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getRemainingRentalPeriod()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="635" y="730" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-7" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="myxiOlxtA_Yie6UEJxvB-2" target="myxiOlxtA_Yie6UEJxvB-1" edge="1">
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-7" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="myxiOlxtA_Yie6UEJxvB-2" target="myxiOlxtA_Yie6UEJxvB-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="380" y="290" as="sourcePoint" />
             <mxPoint x="460" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-9" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="myxiOlxtA_Yie6UEJxvB-4" target="myxiOlxtA_Yie6UEJxvB-2" edge="1">
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-9" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="myxiOlxtA_Yie6UEJxvB-4" target="myxiOlxtA_Yie6UEJxvB-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="350" as="sourcePoint" />
             <mxPoint x="500" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-10" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="myxiOlxtA_Yie6UEJxvB-3" target="myxiOlxtA_Yie6UEJxvB-2" edge="1">
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-10" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="myxiOlxtA_Yie6UEJxvB-3" target="myxiOlxtA_Yie6UEJxvB-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="350" as="sourcePoint" />
             <mxPoint x="500" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="myxiOlxtA_Yie6UEJxvB-11" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" source="myxiOlxtA_Yie6UEJxvB-6" target="myxiOlxtA_Yie6UEJxvB-3" edge="1">
+        <mxCell id="myxiOlxtA_Yie6UEJxvB-11" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="myxiOlxtA_Yie6UEJxvB-6" target="myxiOlxtA_Yie6UEJxvB-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="350" y="640" as="sourcePoint" />
             <mxPoint x="510" y="640" as="targetPoint" />
@@ -198,249 +235,362 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-3" id="2u0LzDXUlga_CHWbFIFK">
-    <mxGraphModel dx="1195" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="Wdx-pngv28Yx8AFfd5AZ" name="Page-3">
+    <mxGraphModel dx="728" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-4" value="ثبت ماشین برای فروش یا اجاره" style="html=1;whiteSpace=wrap;fontFamily=B Koodak;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="-860" width="130" height="50" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-4" value="ثبت ماشین برای فروش یا اجاره" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-1060" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-9" value="سیستم" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="-760" width="100" height="340" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-9" value="سیستم" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="480" y="-960" width="100" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-9" vertex="1">
-          <mxGeometry x="50" y="70" width="10" height="260" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-9" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="870" y="-770" width="20" height="360" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-12" value="کاربر ثبت شده" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-970" width="20" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-12" vertex="1">
-          <mxGeometry x="10" y="80" width="10" height="260" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-12" vertex="1">
+          <mxGeometry x="5" y="80" width="10" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" target="pcvxkKWbGvpCtbqO5N0D-33">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.48;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="-682" as="sourcePoint" />
-            <mxPoint x="1084.5" y="-682" as="targetPoint" />
+            <mxPoint x="321" y="-880" as="sourcePoint" />
+            <mxPoint x="529.5" y="-880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-18" value="ثبت رمز و نام کاربری&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-15" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" target="pcvxkKWbGvpCtbqO5N0D-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1085" y="-642" as="sourcePoint" />
-            <mxPoint x="875" y="-642" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-21" value="ورود به سیستم" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-20" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" target="pcvxkKWbGvpCtbqO5N0D-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="-602" as="sourcePoint" />
-            <mxPoint x="1085" y="-602" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-23" value="ثبت اطلاعات ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-22" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-24" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" target="pcvxkKWbGvpCtbqO5N0D-32" source="pcvxkKWbGvpCtbqO5N0D-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1085" y="-562" as="sourcePoint" />
-            <mxPoint x="875" y="-562" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-25" value="انتظار برای آپلود فیلم و عکس از ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-24" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-26" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" source="pcvxkKWbGvpCtbqO5N0D-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="875" y="-522" as="sourcePoint" />
-            <mxPoint x="1085" y="-522" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-27" value="آپلود فیلم و عکس" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-26" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-28" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1085" y="-482" as="sourcePoint" />
-            <mxPoint x="890" y="-482" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-29" value="تشخیص خوردگی های ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-28" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-30" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" source="pcvxkKWbGvpCtbqO5N0D-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="875" y="-442" as="sourcePoint" />
-            <mxPoint x="1085" y="-442" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-31" value="تایید&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-30" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-34" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="-810" width="20" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-34" vertex="1">
-          <mxGeometry x="10" y="100" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-63" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-34" vertex="1">
-          <mxGeometry x="10" y="360" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-36" value="اجاره کردن یا خرید ماشین" style="html=1;whiteSpace=wrap;fontFamily=B Koodak;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-890" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-37" value="سیستم" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="-800" width="100" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-37" vertex="1">
-          <mxGeometry x="50" y="90" width="10" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-39" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;" parent="1" vertex="1">
-          <mxGeometry x="650" y="-810" width="20" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=B Koodak;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;rounded=1;" parent="pcvxkKWbGvpCtbqO5N0D-39" vertex="1">
-          <mxGeometry x="10" y="320" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-41" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1" target="pcvxkKWbGvpCtbqO5N0D-64">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="-700" as="sourcePoint" />
-            <mxPoint x="465.25" y="-700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-42" value="ثبت رمز و نام کابری" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-41" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-43" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="-670" as="sourcePoint" />
-            <mxPoint x="230" y="-670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-44" value="ورود" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-43" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-47" value="درخواست برای نمایش اطلاعات وخوردگی های ماشین" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.8;" parent="1" source="pcvxkKWbGvpCtbqO5N0D-34" edge="1">
-          <mxGeometry x="-0.0041" y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="245" y="-560" as="sourcePoint" />
-            <mxPoint x="460" y="-560" as="targetPoint" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-18" value="ثبت رمز و نام کاربری&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-15" connectable="0" vertex="1">
+          <mxGeometry x="-0.0919" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-48" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#182E3E;fontColor=default;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="-480" as="sourcePoint" />
-            <mxPoint x="660" y="-480" as="targetPoint" />
+            <mxPoint x="530" y="-840" as="sourcePoint" />
+            <mxPoint x="320" y="-840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-49" value="انتظار تایید مالک خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-48" connectable="0" vertex="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint x="5" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-21" value="ورود به سیستم" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-20" connectable="0" vertex="1">
+          <mxGeometry x="-0.054" y="1" relative="1" as="geometry">
+            <mxPoint x="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-50" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#182E3E;fontColor=default;strokeWidth=2.5;" parent="1" source="pcvxkKWbGvpCtbqO5N0D-39" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="-460" as="sourcePoint" />
-            <mxPoint x="470" y="-460" as="targetPoint" />
+            <mxPoint x="320" y="-800" as="sourcePoint" />
+            <mxPoint x="530" y="-800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-51" value="تایید" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-50" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-23" value="ثبت اطلاعات ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-22" connectable="0" vertex="1">
+          <mxGeometry x="0.2349" y="1" relative="1" as="geometry">
+            <mxPoint x="-35" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-52" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="-620" as="sourcePoint" />
-            <mxPoint x="459.5" y="-620" as="targetPoint" />
+            <mxPoint x="530" y="-760" as="sourcePoint" />
+            <mxPoint x="320" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-53" value="درخواست برای مشاهده لیست ماشین ها" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-52" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-25" value="انتظار برای آپلود فیلم و عکس از ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-24" connectable="0" vertex="1">
+          <mxGeometry x="-0.1683" y="3" relative="1" as="geometry">
+            <mxPoint x="-28" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-54" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="-600" as="sourcePoint" />
-            <mxPoint x="230" y="-600" as="targetPoint" />
+            <mxPoint x="320" y="-720" as="sourcePoint" />
+            <mxPoint x="530" y="-720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-55" value="نمایش لیست ماشین&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-54" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-27" value="آپلود فیلم و عکس" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-26" connectable="0" vertex="1">
+          <mxGeometry x="0.1397" y="-1" relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-56" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="459.5" y="-530" as="sourcePoint" />
-            <mxPoint x="230" y="-530" as="targetPoint" />
+            <mxPoint x="530" y="-680" as="sourcePoint" />
+            <mxPoint x="320" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-57" value="نمایش اطلاعات و خوردگی های ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-56" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-29" value="تشخیص خوردگی های ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-28" connectable="0" vertex="1">
+          <mxGeometry x="-0.0921" y="3" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-58" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="-500" as="sourcePoint" />
-            <mxPoint x="459.5" y="-500" as="targetPoint" />
+            <mxPoint x="320" y="-640" as="sourcePoint" />
+            <mxPoint x="530" y="-640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-59" value="ثبت درخواست برای ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-58" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-31" value="تایید&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-30" connectable="0" vertex="1">
+          <mxGeometry x="-0.0889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-60" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=B Koodak;labelBackgroundColor=default;strokeColor=#6c8ebf;fontColor=default;fillColor=#dae8fc;strokeWidth=2.5;" parent="1" edge="1">
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-34" value="کاربر ثبت شده" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-430" width="20" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-34" vertex="1">
+          <mxGeometry x="5" y="100" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-63" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-34" vertex="1">
+          <mxGeometry x="5" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-36" value="اجاره کردن&amp;nbsp;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-37" value="سیستم" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="365" y="-420" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-37" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-39" value="مالک خودرو" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-430" width="20" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pcvxkKWbGvpCtbqO5N0D-39" vertex="1">
+          <mxGeometry x="5" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-41" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="459.5" y="-430" as="sourcePoint" />
-            <mxPoint x="230" y="-430" as="targetPoint" />
+            <mxPoint x="169.5" y="-320" as="sourcePoint" />
+            <mxPoint x="420.25" y="-320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcvxkKWbGvpCtbqO5N0D-61" value="تایید درخواست و نمایش محل تحویل خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=B Koodak;labelBackgroundColor=#dae8fc;fontColor=#1A1A1A;" parent="pcvxkKWbGvpCtbqO5N0D-60" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-10" as="offset" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-42" value="ثبت رمز و نام کابری" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-41" connectable="0" vertex="1">
+          <mxGeometry x="0.1663" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pkkeZMTNKFJFJsH2Ib6e-3" value="&lt;font face=&quot;B Koodak&quot;&gt;مالک خودرو&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1A1A1A;labelBackgroundColor=#dae8fc;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="615" y="-860" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pkkeZMTNKFJFJsH2Ib6e-4" value="&lt;font face=&quot;B Koodak&quot;&gt;کاربر ثبت شده&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;labelBackgroundColor=#dae8fc;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-850" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pkkeZMTNKFJFJsH2Ib6e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=default;fillColor=#dae8fc;strokeWidth=2.5;exitX=0.444;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pkkeZMTNKFJFJsH2Ib6e-5" target="pcvxkKWbGvpCtbqO5N0D-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="820" y="-770" />
-              <mxPoint x="820" y="-560" />
-            </Array>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-43" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="pcvxkKWbGvpCtbqO5N0D-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="-290" as="sourcePoint" />
+            <mxPoint x="222.5" y="-290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pkkeZMTNKFJFJsH2Ib6e-5" value="&lt;font face=&quot;B Koodak&quot;&gt;کاربر ثبت شده&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;labelBackgroundColor=#dae8fc;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="830" y="-800" width="90" height="30" as="geometry" />
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-44" value="ورود" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-43" connectable="0" vertex="1">
+          <mxGeometry x="0.065" y="4" relative="1" as="geometry">
+            <mxPoint x="2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-47" value="درخواست برای نمایش اطلاعات وخوردگی های ماشین" style="endArrow=classic;html=1;rounded=0;" parent="1" source="pcvxkKWbGvpCtbqO5N0D-34" edge="1">
+          <mxGeometry x="-0.0698" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-180" as="sourcePoint" />
+            <mxPoint x="415" y="-180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="pcvxkKWbGvpCtbqO5N0D-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="-100" as="sourcePoint" />
+            <mxPoint x="615" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-49" value="انتظار تایید مالک خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-48" connectable="0" vertex="1">
+          <mxGeometry x="0.1607" y="5" relative="1" as="geometry">
+            <mxPoint x="-17" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-50" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="pcvxkKWbGvpCtbqO5N0D-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="-80" as="sourcePoint" />
+            <mxPoint x="410" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-51" value="تایید" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-50" connectable="0" vertex="1">
+          <mxGeometry x="0.188" y="1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-52" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169.5" y="-240" as="sourcePoint" />
+            <mxPoint x="414.5" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-53" value="درخواست برای مشاهده لیست ماشین ها" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-52" connectable="0" vertex="1">
+          <mxGeometry x="0.2632" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-54" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="pcvxkKWbGvpCtbqO5N0D-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="-220" as="sourcePoint" />
+            <mxPoint x="222.5" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-55" value="نمایش لیست ماشین&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-54" connectable="0" vertex="1">
+          <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-56" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="-150" as="sourcePoint" />
+            <mxPoint x="169.5" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-57" value="نمایش اطلاعات و خوردگی های ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-56" connectable="0" vertex="1">
+          <mxGeometry x="-0.1197" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-58" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169.5" y="-120" as="sourcePoint" />
+            <mxPoint x="414.5" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-59" value="ثبت درخواست دوره زمانی مد نظر برای اجاره" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-58" connectable="0" vertex="1">
+          <mxGeometry x="0.0789" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-60" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="-50" as="sourcePoint" />
+            <mxPoint x="169.5" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvxkKWbGvpCtbqO5N0D-61" value="تایید درخواست و نمایش محل تحویل خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcvxkKWbGvpCtbqO5N0D-60" connectable="0" vertex="1">
+          <mxGeometry x="-0.1361" y="1" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-30" value="کاربر ثبت شده" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="20" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Be_sbXE_u9YFf070DOWK-30">
+          <mxGeometry x="5" y="100" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Be_sbXE_u9YFf070DOWK-30">
+          <mxGeometry x="5" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-33" value="خرید ماشین" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-34" value="سیستم" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="375" y="180" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Be_sbXE_u9YFf070DOWK-34">
+          <mxGeometry x="45" y="90" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-36" value="مالک خودرو" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="20" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Be_sbXE_u9YFf070DOWK-36">
+          <mxGeometry x="5" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.5" y="280" as="sourcePoint" />
+            <mxPoint x="430.25" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-39" value="ثبت رمز و نام کابری" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-38">
+          <mxGeometry x="0.1663" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Be_sbXE_u9YFf070DOWK-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="427.5" y="310" as="sourcePoint" />
+            <mxPoint x="232.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-41" value="ورود" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-40">
+          <mxGeometry x="0.065" y="4" relative="1" as="geometry">
+            <mxPoint x="2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-42" value="درخواست برای نمایش اطلاعات وخوردگی های ماشین" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Be_sbXE_u9YFf070DOWK-30">
+          <mxGeometry x="-0.0698" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="420" as="sourcePoint" />
+            <mxPoint x="425" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Be_sbXE_u9YFf070DOWK-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="500" as="sourcePoint" />
+            <mxPoint x="625" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-44" value="انتظار تایید مالک خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-43">
+          <mxGeometry x="0.1607" y="5" relative="1" as="geometry">
+            <mxPoint x="-17" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Be_sbXE_u9YFf070DOWK-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="520" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-46" value="تایید" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-45">
+          <mxGeometry x="0.188" y="1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.5" y="360" as="sourcePoint" />
+            <mxPoint x="424.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-48" value="درخواست برای مشاهده لیست ماشین ها" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-47">
+          <mxGeometry x="0.2632" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Be_sbXE_u9YFf070DOWK-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="427.5" y="380" as="sourcePoint" />
+            <mxPoint x="232.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-50" value="نمایش لیست ماشین&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-49">
+          <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="450" as="sourcePoint" />
+            <mxPoint x="179.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-52" value="نمایش اطلاعات و خوردگی های ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-51">
+          <mxGeometry x="-0.1197" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.5" y="480" as="sourcePoint" />
+            <mxPoint x="424.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-54" value="ثبت درخواست برای ماشین" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-53">
+          <mxGeometry x="0.0789" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="550" as="sourcePoint" />
+            <mxPoint x="179.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_sbXE_u9YFf070DOWK-56" value="تایید درخواست و نمایش محل تحویل خودرو" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Be_sbXE_u9YFf070DOWK-55">
+          <mxGeometry x="-0.1361" y="1" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
