@@ -9,8 +9,8 @@ def train_yolo11_model():
     model = YOLO('yolo11s')
     model.train(
         data="AI/yolo_configs/carDD.yaml",
-        epochs=1,
-        imgsz=960,
+        epochs=100,
+        imgsz=640,
     )
 
 
