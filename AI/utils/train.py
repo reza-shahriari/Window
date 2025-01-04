@@ -6,11 +6,12 @@ just get the name as input and run the training process.
 from ultralytics import YOLO
 
 def train_yolo11_model():
-    model = YOLO('yolo11s')
+    model = YOLO('yolo11m')
     model.train(
         data="AI/yolo_configs/carDD.yaml",
         epochs=100,
         imgsz=640,
+        batch=-1,
     )
 
 
