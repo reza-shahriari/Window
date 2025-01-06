@@ -1,0 +1,9 @@
+AI/dataset/train/*.jpg
+AI/dataset/train/*.png
+AI/dataset/test/*.jpg
+AI/dataset/test/*.png
+AI/dataset/validation/*.jpg
+AI/dataset/validation/*.png
+*.cache
+*.pt
+AI/dataset/*
