@@ -23,9 +23,9 @@ class Visualize():
     def __initialize(self):
         img_exts = ['*.png','*.jpeg','*.jpg','*.tbm']    
         imgs = []
-        imgs = natsorted(imgs)    
         for ext in img_exts:
             imgs.extend(glob(join(self.imgs_path,ext)))
+        imgs = natsorted(imgs)    
         if isdir(self.label_path):
             self.show_dict = {}
             for i in imgs:
@@ -64,13 +64,12 @@ class Visualize():
                 ymax = int((y*height) + (h * height)/2.0)
                 cv2.rectangle(img, (xmin, ymin), (xmax, ymax), self.colors[class_idx], 2)
                 cv2.putText(img, self.class_name[class_idx], (xmin, ymin - 5), cv2.FONT_HERSHEY_SIMPLEX,0.5, self.colors[class_idx], 2)
-
             cv2.imshow("image", img)
-            k =cv2.waitKey(0)
+            k =cv2.waitKey(0)                
             if k ==ord('q'): break
         print("Done")
         
         
 if __name__ == '__main__':
-    vis = Visualize(imgs_path='AI/dataset/test',label_path='AI/dataset/test',)
+    vis = Visualize(imgs_path='AI/dataset/test',label_path='AI/dataset/test',custom_vis=True)
     vis.visualize()
