@@ -125,39 +125,22 @@ class Company(models.Model):
         max_length=100,
     )
 
+    def __str__(self):
+        return self.name
+
 
 class CarModel(models.Model):
-    # class Company(models.IntegerChoices):
-    #     IRAN_KHODRO = 1
-    #     SAIPA = 2
-    #     BENZ = 3
-    #     BMW = 4
-    #     VOLVO = 5
-    #     RENO = 6
-    #     AUDI = 7
-    #     MVM = 8
-    #     PORSCHE = 9
-    #     TOYOTA = 10
-    #     JACK = 11
-    #     SUZUKI = 12
-    #     CHEVROLET = 13
-    #     LEXUS = 14
-    #     HYUNDAI = 15
-
     name = models.CharField(
         null=False,
         blank=False,
         max_length=100,
     )
-    # company_id = models.IntegerField(
-    #     null=True,
-    #     choices=Company.choices,
-    # )
     company = models.ForeignKey(
         Company,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
+        related_name="car_models"
     )
 
     def __str__(self):
@@ -243,12 +226,14 @@ class Post(models.Model):
         on_delete=models.CASCADE,
         null=True,
         blank=True,
+        related_name="posts",
     )
     company = models.ForeignKey(
         Company,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
+        related_name="posts",
     )
     city = models.ForeignKey(
         City,
@@ -269,6 +254,11 @@ class Post(models.Model):
         blank=True,
     )
     public_address = models.CharField(
+        null=True,
+        blank=True,
+        max_length=100,
+    )
+    private_address = models.CharField(
         null=True,
         blank=True,
         max_length=100,
@@ -389,9 +379,17 @@ class Post(models.Model):
             self.longitude = place.longitude
 
     def save(self, *args, **kwargs):
-        if not self.latitude or not self.latitude:
+        if not self.place and (not self.latitude or not self.latitude):
             self.find_place()
+            self.find_neighborhood_district()
+        elif self.place and (not self.latitude or not self.latitude):
+            self.latitude = Place.objects.get(id=self.place.id).latitude
+            self.longitude = Place.objects.get(id=self.place.id).longitude
             self.find_neighborhood_district()
         elif not self.neighborhood and not self.district:
             self.find_neighborhood_district()
+        self.private_address = f"{self.city} - {self.district} - {self.neighborhood}"
+        if self.car_model and not self.company:
+            print(self.car_model.name)
+            self.company = CarModel.objects.get(id=self.car_model.id).company
         super().save(*args, **kwargs)

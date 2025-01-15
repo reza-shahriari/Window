@@ -1,5 +1,6 @@
 from pathlib import Path
 from environs import Env
+import datetime
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
@@ -11,6 +12,19 @@ DEBUG = env.bool("DEBUG", default=True)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default="127.0.0.1,backend,0.0.0.0")
 
 
+# default backend
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = env.str("EMAIL_HOST", default="smtp.gmail.com")
+EMAIL_PORT = env.str("EMAIL_PORT", default='587') # Recommended
+EMAIL_HOST_USER = env.str("EMAIL_HOST_USER", default="windowprojectsoftware@gmail.com")
+EMAIL_HOST_PASSWORD = env.str("EMAIL_HOST_PASSWORD", default="kzrh biil kifa nfjn")
+EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS", default=True)  # Use EMAIL_PORT 587 for TLS
+# EMAIL_USE_SSL = env.bool("EMAIL_USE_TLS", default=False)  # EUse MAIL_PORT 465 for SSL
+
+ADMIN_USER_NAME=env.str("ADMIN_USER_NAME", default="admin")
+ADMIN_USER_EMAIL=env.str("ADMIN_USER_EMAIL", default=None)
+
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -20,7 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework_simplejwt',
     'backend.srvs.office.office',
+    'backend.srvs.office.gate',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -59,20 +75,28 @@ DATABASES = {
     }
 }
 
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
+REST_FRAMEWORK = {
+    # "DEFAULT_FILTER_BACKENDS": [
+    #     "django_filters.rest_framework.DjangoFilterBackend",
+    # ],
+    "DEFAULT_PAGINATION_CLASS": (
+        "rest_framework.pagination.LimitOffsetPagination"
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    # 'DEFAULT_THROTTLE_CLASSES': [
+    #     'rest_framework.throttling.AnonRateThrottle',
+    #     'rest_framework.throttling.UserRateThrottle'
+    # ],
+    # 'DEFAULT_THROTTLE_RATES': {
+    #     'anon': '60/minute',
+    #     'user': '60/minute'
+    # },
+    "PAGE_SIZE": 10,
+}
+
+AUTH_USER_MODEL = 'gate.User'
 
 
 # Internationalization
@@ -84,3 +108,18 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JWT_EXPIRE_DAYS = env.int("JWT_EXPIRE_DAYS", default=365)
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(days=JWT_EXPIRE_DAYS),
+    'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=JWT_EXPIRE_DAYS),
+}
+
+MANAGERS=[]
+ADMINS=[]
+if all([ADMIN_USER_NAME, ADMIN_USER_EMAIL]):
+    ADMINS +=[
+        (f'{ADMIN_USER_NAME}', f'{ADMIN_USER_EMAIL}')
+    ]
+    MANAGERS=ADMINS
