@@ -10,7 +10,12 @@ class Detection_model:
         self.model_version = model_version
         self.weight_path = weight_path 
         self.model = self.initialize_model()
-        self.batch_size = 16 if self.model_size == 'n' else -1
+        bathsize_dict = {
+            'yolov8n': 16,
+            'yolov11n': 16,
+            'rtdetr-x': 8,
+        }
+        self.batch_size = bathsize_dict.get(self.model_name, -1)
         self.epochs = 100
         self.imgsz=640
         self.data_path = "AI/yolo_configs/carDD.yaml"
@@ -24,7 +29,8 @@ class Detection_model:
                 print('version must be in 3, 4, 5, 6, 7, 8, 9, 10, 11')
                 self.model_version = input('version: ').strip()
             name = 'yolov'+ self.model_version + self.model_size + '.pt'
-            return YOLO(name)
+            self.name = name[:-3]
+            return YOLO(self.name)
         elif self.model_name=='rtdetr':
             from ultralytics import RTDETR
             self.model_size = self.model_size.lower()
@@ -32,6 +38,7 @@ class Detection_model:
                 print('model size must be l, x')
                 self.model_size = input('model size: ').strip().lower()
             name = 'rtdetr-' + model_size + '.pt'
+            self.name = name[:-3]
             return RTDETR(name)
         else:
             raise ValueError('model_name is not supported')
@@ -47,7 +54,7 @@ class Detection_model:
 
 if __name__ == '__main__':
     model_name = 'rtdetr'
-    model_version = '8'
-    model_size = 'l'
+    model_version = ''
+    model_size = 'x'
     model = Detection_model(model_name=model_name,model_size=model_size,model_version=model_version)
     model.train()

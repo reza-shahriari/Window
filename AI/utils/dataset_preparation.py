@@ -66,6 +66,7 @@ class DatasetPreparator():
         with open(join(dataset_folder,'train.txt'),'w') as f:
             for img in imgs:
                 f.write(img+'\n')
+ 
     def add_id(self,imgs_path,class_name = None):
         class_name ={
             0: "dent",
@@ -132,9 +133,7 @@ class DatasetPreparator():
                 res += new_id +' ' + bbox + '\n'
             with open(annotation_path,'w') as f:
                 f.write(res)
-
-        
-    
+ 
     def switch_id(path,class_id_map=None):
         """
         swithing ids in test/train/validation
@@ -158,7 +157,7 @@ class DatasetPreparator():
                 res += class_id + ' ' + x_min +' ' +  y_min + ' ' +  x_max + ' ' + y_max + '\n'
             with open (txt_path,'w') as f:
                 f.write(res)
-                
-if __name__ =='__main__':
-    data_pre = DatasetPreparator()
-    data_pre.add_id(imgs_path='AI/dataset/test')
+
+
+
+
