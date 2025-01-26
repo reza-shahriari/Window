@@ -1,0 +1,44 @@
+.sale-banner{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background-image: url(../Assets/lexux\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3%;
+}
+
+.sale-banner-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position:relative;
+    left: -13%; 
+    top: -30%;
+}
+
+.sale-banner-left p{
+    color:white ;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.sale-banner-left h1{
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+
+.sale-banner-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}

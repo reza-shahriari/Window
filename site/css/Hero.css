@@ -1,0 +1,78 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    background-image: url(../Assets/rolls4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+    position: relative;
+    left: -8%;
+
+}
+
+.hero-left h2{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.hero-left p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.hero-fast-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.hero-affordable-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-reliable-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.hero-fast-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-start-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background:rgb(29, 29, 109);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-right{
+    flex: 10;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
