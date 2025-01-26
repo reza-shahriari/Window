@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'backend.srvs.office.office',
     'backend.srvs.office.gate',
+    "django_filters",
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -76,9 +77,9 @@ DATABASES = {
 }
 
 REST_FRAMEWORK = {
-    # "DEFAULT_FILTER_BACKENDS": [
-    #     "django_filters.rest_framework.DjangoFilterBackend",
-    # ],
+    "DEFAULT_FILTER_BACKENDS": [
+        "django_filters.rest_framework.DjangoFilterBackend",
+    ],
     "DEFAULT_PAGINATION_CLASS": (
         "rest_framework.pagination.LimitOffsetPagination"
     ),

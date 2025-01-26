@@ -18,6 +18,7 @@ from backend.srvs.office.office._settings import (
     KILOMETER_MAX,
 )
 from backend.libs.log import log
+from backend.srvs.office.gate.models import User
 
 pormalizer = Pormalizer()
 
@@ -164,6 +165,12 @@ class Post(models.Model):
         WEEKLY = 3
         MONTHLY = 4
 
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+    )
     title = models.CharField(
         max_length=100,
         null=False,
