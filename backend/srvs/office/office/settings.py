@@ -1,7 +1,7 @@
 from pathlib import Path
 from environs import Env
 import datetime
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 env = Env()
@@ -9,8 +9,7 @@ env.read_env()
 
 SECRET_KEY = env.str("SECRET_KEY", defualt="django-insecure-^qh%5i!p0ytiqi=!yjdvv1vtopxc_2a^ed!u)#a529jic5&@de")
 DEBUG = env.bool("DEBUG", default=True)
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default="127.0.0.1,backend,0.0.0.0")
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # default backend
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -28,6 +27,7 @@ ADMIN_USER_EMAIL=env.str("ADMIN_USER_EMAIL", default=None)
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'corsheaders',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -46,9 +46,16 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.srvs.office.office.urls'
+CORS_ALLOW_ALL_ORIGINS = True  
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'backend', 'media')
+
+
 
 TEMPLATES = [
     {

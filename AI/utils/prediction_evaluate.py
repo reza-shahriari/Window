@@ -19,7 +19,7 @@ class eval_pred():
         self.model = self._model_name_cnv(model_name,weight_path)
         self.pred = pred
         self.yaml_path=yaml_path
-        self.save_path = save_path
+        self.save_path = 'AI/dataset/0/res'
     def _model_name_cnv(self,model_name,weight_path):
         if 'yolo' in model_name.lower().strip():
             return YOLO(weight_path)
@@ -27,7 +27,9 @@ class eval_pred():
             return RTDETR(weight_path) 
     def __call__(self,):
         if self.pred:
-            if self.save_path:should_save=True            
+            should_save=False
+            if self.save_path:
+                should_save=True            
             if should_save and not exists(self.save_path):
                 mkdir(self.save_path)
 
@@ -49,14 +51,14 @@ class eval_pred():
 
 if __name__ == '__main__':
     # model_name = input('enter model\'s name(yolo,rt-detr)').lower().strip()
-    model_name = 'rt-detr'
-    predict = False
+    model_name = 'yolo8'
+    predict = True
     # weight_path = input("Enter the weight path: ")    
-    weight_path = 'AI/checkpoints/yolo8S.pt'
+    weight_path = 'AI/checkpoints/yolo8M.pt'
     yolo_yaml  = 'AI/yolo_configs/carDD.yaml'
     # s = input('enter yaml path(d for defult)')
     # if s.lower().strip() =='d':yolo_yaml=s 
     # pred = input('Choose mode - [1] Predict or [2] Evaluate: ').strip() == '1'   
-    pred=False
+    pred=True
     ev = eval_pred(model_name=model_name,yaml_path=yolo_yaml,weight_path=weight_path,pred=pred)
     ev()
