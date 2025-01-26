@@ -15,6 +15,7 @@ from backend.srvs.office.gate.settings import (
 )
 from django.core.mail import send_mail
 from django.conf import settings
+from django.contrib.auth.models import Group
 
 iran_tz = pytz.timezone('Iran')
 
@@ -46,12 +47,16 @@ class UserViewSet(GenericViewSet):
                 user.set_password(otp)
                 user.password_updated_at = datetime.now(tz=iran_tz)
                 user.save()
+                common = Group.objects.get(name='common')
+                common.user_set.add(user)
             else:
-                User.objects.create_user(
+                user = User.objects.create_user(
                     username=_email,
                     password=otp,
                     password_updated_at=datetime.now(tz=iran_tz),
                 )
+                common = Group.objects.get(name='common')
+                common.user_set.add(user)
             return Response(status=HTTP_201_CREATED)
         return Response(status=HTTP_409_CONFLICT)
 
